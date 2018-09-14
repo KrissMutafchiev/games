@@ -1,0 +1,38 @@
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 640px;
+    height: 640px;
+}
+canvas {
+    background-color: #ffa5005c;
+    border-radius: 15px;
+}
+.nav-info {
+    position: absolute;
+    top: 140px;
+}
+ul li {
+    list-style-type: none;
+}
+.bg-top{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: -58px;
+    height: 135px;
+    width: 370px;
+    background-image: url(../resource/left-png.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bg-bottom {
+    position: relative;
+    bottom: 97px;
+    height: 135px;
+    left: -45px;
+    width: 370px;
+    background-image: url(../resource/left-png.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
